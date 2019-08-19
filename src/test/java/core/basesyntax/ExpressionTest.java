@@ -13,7 +13,7 @@ public class ExpressionTest {
     private static double NEGATIVE_RESULT = -5.6137;
 
     @Test
-    public void positiveDoubleExpression() {
+    public void isSumWithinMarginPositiveNumber() {
         Expression expression = new Expression();
         boolean actualResult = expression.doubleExpression(POSITIVE_A, POSITIVE_B, POSITIVE_RESULT);
         Assert.assertTrue("Test failed with parameters: a = " + POSITIVE_A
@@ -23,7 +23,7 @@ public class ExpressionTest {
     }
 
     @Test
-    public void negativeDoubleExpression() {
+    public void isSumWithinMarginNegativeNumber() {
         Expression expression = new Expression();
         boolean actualResult = expression.doubleExpression(NEGATIVE_A, NEGATIVE_B, NEGATIVE_RESULT);
         Assert.assertTrue("Test failed with parameters: a = " + NEGATIVE_A
