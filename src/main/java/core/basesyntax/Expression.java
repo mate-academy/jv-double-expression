@@ -8,7 +8,7 @@ package core.basesyntax;
  */
 public class Expression {
 
-    public boolean doubleExpression(double a, double b, double c) {
+    public boolean isSumWithinMargin(double a, double b, double c) {
         return false;
     }
 }
